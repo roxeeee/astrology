@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1.6px;
+}
+
+.container {
+	max-width: 1382px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.content {
+	position: absolute;
+	z-index: 999;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo {
+	width: auto;
+	height: 80px;
+	margin-right: 390px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav__items {
+	display: flex;
+	gap: 60px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav__item {
+	list-style-type: none;
+	transition: all 0.2s ease;
+}
+
+.nav__item:hover {
+	color: #93278F;
+}
+
+.active {
+	color: #4F4F4F;
+}
+
+.link__button {
+	display: flex;
+	padding-left: 60px;
+	gap: 27px;
+}
+
+.link__auth {
+	padding: 11px 27px;
+	background-color: #0E0E0E;
+	font-weight: 700;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 5px;
+
+	transition: all 0.2s ease;
+}
+
+.link__auth:hover {
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+
+.link__auth:active {
+	position: relative;
+	top: 1px;
+}
+
+.link__basket {
+	padding: 11px 27px;
+	background-color: #fff;
+	border: 1px solid #0E0E0E;
+	font-weight: 700;
+	font-size: 12px;
+	color: #0E0E0E;
+	border-radius: 5px;
+
+	transition: all 0.2s ease;
+}
+
+.link__basket:hover {
+	color: #93278F;
+	border: 1px solid #93278F;
+}
+
+.link__basket:active {
+	position: relative;
+	top: 1px;
+}
+
+.forecasts {
+	background-image: url(../img/forecasts/background2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 20px 0 0;
+}
+
+.forecasts__content {
+	margin-top: 140px;
+	text-align: center;
+}
+
+.forecasts__title {
+	margin-bottom: 180px;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.forecasts__items__1 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 58px;
+}
+
+.forecasts__items__2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 117px;
+}
+
+.forecasts__item img {
+	margin: 0;
+	width: 200px;
+	height: auto;
+	transition: all 1.4s ease;
+}
+
+.forecasts__img {
+    -webkit-transition: all 1s ease;
+}
+
+.forecasts__img:hover {
+    -webkit-transform:scale(1.20);
+}
+
+
+.horoscope__title {
+	margin: 0 0 7px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.horoscope__desc {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.footer {
+	padding: 20px 0 0;
+}
+
+.footer__content1 {
+	display: flex;
+}
+
+.footer__content1 .footer__img {
+	margin: 0 auto;
+}
+
+.footer__title {
+	margin-bottom: 30px;
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	transition: all 1s ease;
+	cursor: pointer;
+}
+
+.footer__title:hover {
+	color: #93278F;
+}
+
+.footer__items {
+	margin: 0 0 70px 570px;
+	display: flex;
+	gap: 37px;
+}
+
+.footer__img {
+	transition: all 2s ease;
+}
+
+.footer__img {
+    -webkit-transition: all 1s ease;
+}
+
+.footer__img:hover {
+    -webkit-transform:scale(1.08);
+}

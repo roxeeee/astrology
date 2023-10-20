@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1.6px;
+	background-image: url(../img/auth/background.png);
+}
+
+.registration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	padding: 0 39px;
+	margin-top: 240px;
+	width: 400px;
+	height: auto;
+	text-align: center;
+
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.content__form {
+	display: flex;
+	align-items: center;
+	margin: 0 0 0 23px;
+	gap: 55px;
+}
+
+.left-arrow {
+	display: inline-flex;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-top: 23px;
+  }
+  
+  .left-arrow::before,
+  .left-arrow::after {
+	display: inline-flex;
+	position: absolute;
+	content: '';
+  }
+  
+  .left-arrow::before {
+	top: 8px;
+	left: 0;
+	width: 20px;
+	height: 3px;
+	background-color: #000;; 
+  }
+  
+  .left-arrow::after {
+	width: 10px;
+	height: 10px;
+	top: 3px;
+  }
+  
+  .left-arrow::after {
+	left: 0;
+	border-top: 3px solid #000;;
+	border-left: 3px solid #000;;
+	transform: rotate(-45deg);
+  }
+  
+  .left-arrow:hover::before {
+	background-color: #93278F; 
+  }
+  
+  .left-arrow:hover::after {
+	border-top: 3px solid #93278F;
+	border-left: 3px solid #93278F;
+  }
+
+.registration__title {
+	padding: 40px 0 0;
+	margin-bottom: 45px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.forma {
+	margin-bottom: 40px;
+}
+
+.form__group {
+	margin-bottom: 30px;
+	padding: 0 20px;
+	flex: 1;
+	position: relative;
+}
+
+.input {
+	width: 100%;
+	padding: 10px 0;
+	outline: none;
+
+	font-family: inherit;
+	font-size: 15px;
+	font-weight: 600;
+	color: #000;
+	border: 0;
+	border-bottom: 3px solid #000;
+}
+
+input:focus + .label {
+	transform: translateY(-15px);
+	font-size: 12px;
+}
+
+input:not(:placeholder-shown) + .label {
+	transform: translateY(-15px);
+	font-size: 12px;
+}
+
+.label {
+	position: absolute;
+	color: #000;
+	top: 10px;
+	left: 20px;
+	font-weight: 700;
+	pointer-events: none;
+	transition: all .2s ease;
+}
+
+.btn__form {
+	margin-bottom: 10px;
+	width: 365px;
+	height: 65px;
+	border: 1px solid #000;
+	border-radius: 5px;
+
+	color: #000;
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: inherit;
+	cursor: pointer;
+
+	transition: all .2s ease;
+}
+
+.btn__form:hover {
+	background-color: #000;
+	color: #fff;
+	border: none;
+}
+
+.form__login {
+	margin-bottom: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: inherit;
+}
+
+.form__link {
+	color: #93278F;
+	text-decoration: none;
+	cursor: pointer;
+}

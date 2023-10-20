@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<script src="https://kit.fontawesome.com/2421f70b85.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="img/brauser/main.png" type="image/png">
+	<title>Астрология</title>
+
+</head>
+<body>
+	
+	<header>
+
+		<div class="container">
+			<div class="content">
+				<a href="index.html"><img class="logo" src="img/icons/logo.svg" alt="logo"></a>
+				<nav class="nav">
+
+					<ul class="nav__items">
+						<a class="link link__item" href="index.html"><li class="nav__item active">Главная</li></a>
+						<a class="link link__item" href="forecast.html"><li class="nav__item">Прогноз</li></a>
+						<a class="link link__item" href="shop.html"><li class="nav__item">Магазин</li></a>
+						<a class="link link__item" href="contacts.html"><li class="nav__item">Контакты</li></a>
+					</ul>
+
+					<div class="link__button">
+						<a class="link link__auth" href="auth.html">Войти</a>
+						<a class="link link__basket" href="#">Корзина</a>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
+	</header>
+	<main>
+
+		<section class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+					<div class="swiper-slide background__img1">
+
+						<div class="container">
+							<div class="header__swiper">
+
+								<div class="header__content">
+									<h4 class="header__info">ABOUT ME</h4>
+									<h1 class="header__title">Стелла Марс</h1>
+									<p class="header__text">Я начал свою карьеру астронома в юном возрасте и
+										с тех пор пишу гороскопы для международных изданий
+										известных журналов. Я автор бестселлера 
+										"Руководство по гороскопу". Мои бесплатные 
+										онлайн-гороскопы читают более 5.000 человек.</p>
+									<a href="forecast.html" class="link header__link">view more</a>
+								</div>
+
+								<div class="img__content">
+									<img class="img1" src="img/slider/img/img1.png" alt="img">
+								</div>
+
+							</div>
+						</div>
+
+					</div>    
+
+					<div class="swiper-slide background__img2">
+
+						<div class="container">
+							<div class="header__swiper">
+							
+								<div class="img__content">
+									<img class="img1" src="img/slider/img/img2.png" alt="img">
+								</div>
+
+								<div class="header__content">
+									<h4 class="header__info">PERSONAL READINGS</h4>
+									<h1 class="header__title">Совместимость в <br>отношениях</h1>
+									<p class="header__text">Управляемый Меркурием, между Близнецами и 
+										Раком есть немного общего. Все дело в том, 
+										чтобы быть услышанным и прочитанным. Однако 
+										на этом сходство заканчивается. Тело, разум и дух 
+										неотделимы друг от друга, и именно физическое 
+										бытие диктует духовное удовлетворение.</p>
+									<a href="forecast.html" class="link header__link">view more</a>
+								</div>
+								
+							</div>
+						</div>
+
+					</div>  
+
+					<div class="swiper-slide background__img3">
+
+						<div class="container">
+							<div class="header__swiper">
+
+								<div class="header__content">
+									<h4 class="header__info">MY BLOG</h4>
+									<h1 class="header__title">Изучайте астрологию</h1>
+									<p class="header__text">Есть так много интересных моментов, когда можно 
+										поэкспериментировать с астрологией, используя 
+										руководство в неделю полнолуния. Например, скоростная 
+										астрология - это астрология солнечных карт, предпочтительный 
+										метод профессиональных медиа-астрологов по всему миру.</p>
+									<a class="link header__link">view more</a>
+								</div>
+
+								<div class="img__content">
+									<img href="forecast.html" class="img1" src="img/slider/img/img3.png" alt="img">
+								</div>
+								
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+            </script>
+        </section>
+
+		<section class="forecasts">
+
+			<div class="container">
+				<div class="forecasts__content">
+					<h1 class="forecasts__title">Прогнозы гороскопа</h1>
+					<p class="forecasts__desc">Читайте бесплатные ежедневные, еженедельные и ежемесячные гороскопы, которые всегда доступны на веб-сайте. 
+						Вы найдете подборку всех текущих астрологических прогнозов.</p>
+
+					<div class="forecasts__items__1">
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_01.png" alt="horoscope">
+							<h1 class="horoscope__title">Овен</h1>
+							<p class="horoscope__desc">МАР 21 - АПР 19</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_02.png" alt="horoscope">
+							<h1 class="horoscope__title">Телец</h1>
+							<p class="horoscope__desc">АПР 20 - МАЙ 20</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_03.png" alt="horoscope">
+							<h1 class="horoscope__title">Близнецы</h1>
+							<p class="horoscope__desc">АПР 20 - МАЙ 20</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_04.png" alt="horoscope">
+							<h1 class="horoscope__title">Рак</h1>
+							<p class="horoscope__desc">АПР 20 - МАЙ 20</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_05.png" alt="horoscope">
+							<h1 class="horoscope__title">Лев</h1>
+							<p class="horoscope__desc">ИЮЛЬ 23- АВГ 22</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_06.png" alt="horoscope">
+							<h1 class="horoscope__title">Дева</h1>
+							<p class="horoscope__desc">АВГ 23 - СЕН 22</p>
+						</div>
+						
+					</div>
+
+					<div class="forecasts__items__2">
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_07.png" alt="horoscope">
+							<h1 class="horoscope__title">Весы</h1>
+							<p class="horoscope__desc">СЕН 23 - ОКТ 22</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_08.png" alt="horoscope">
+							<h1 class="horoscope__title">Скорпион</h1>
+							<p class="horoscope__desc">ОКТ 23 - НОЯБ 21</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_09.png" alt="horoscope">
+							<h1 class="horoscope__title">Стрелец</h1>
+							<p class="horoscope__desc">НОЯБ 22 -ДЕК 21</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_10.png" alt="horoscope">
+							<h1 class="horoscope__title">Козерог</h1>
+							<p class="horoscope__desc">ДЕК 22 - ЯНВ 19</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_11.png" alt="horoscope">
+							<h1 class="horoscope__title">Водолей</h1>
+							<p class="horoscope__desc">ЯНВ 20 - ФЕВ 18</p>
+						</div>
+
+						<div class="forecasts__item">
+							<img class="forecasts__img" src="img/forecasts/horoscope_white_12.png" alt="horoscope">
+							<h1 class="horoscope__title">Рыбы</h1>
+							<p class="horoscope__desc">ФЕВ 19 - МАРТ 20</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="blog">
+
+			<div class="container">
+				<div class="blog__content">
+
+					<p class="blog__desc">ПОСЛЕДНИЕ СТАТЬИ</p>
+					<h1 class="blog__title">Astro Blog</h1>
+
+					<div class="blog__items">
+
+						<div class="blog_item">
+							<img class="blog__item-img" src="img/blog/blog1.jpg" alt="blog">
+							<h6 class="blog__item-date">14 НОЯБРЯ 2017 г.</h6>
+							<h1 class="blog__item-title">Новолуние в Раке</h1>
+							<p class="blog__items-desc">Фол с полным счетом, отбитый во 
+								внеурочное время,контрольный удар 
+								клуба зала славы крэкерджека...</p>
+						</div>
+
+						<div class="blog_item">
+							<img class="blog__item-img" src="img/blog/blog2.jpg" alt="blog">
+							<h6 class="blog__item-date">13 НОЯБРЯ 2017 г.</h6>
+							<h1 class="blog__item-title">Уран в домах</h1>
+							<p class="blog__items-desc">Извлеките выгоду из низко висящих
+								фруктов, чтобы определить наиболее 
+							   выгодное мероприятие...</p>
+						</div>
+
+						<div class="blog_item">
+							<img class="blog__item-img" src="img/blog/blog3.jpg" alt="blog">
+							<h6 class="blog__item-date">12 НОЯБРЯ 2017</h6>
+							<h1 class="blog__item-title">Новолуние в Космосе</h1>
+							<p class="blog__items-desc">Травяная база эпохи жертвоприношений
+								fly dead ball правое поле окрашено 
+							   в красный цвет вокруг...</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+	<footer>
+
+		<section class="footer">
+
+			<div class="container">
+
+				<div class="footer__content1">
+					<img class="footer__img" src="img/icons/planets_footer.png" alt="planets">
+				</div>
+
+				<div class="footer__content2">
+					<h1 class="footer__title">Следуйте за нами</h1>
+						<div class="footer__items">
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/tg.png" alt="tg"></li></a>
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/vk.png" alt="vk"></li></a>
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/youtube.png" alt="youtube"></li></a>
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/instagram.png" alt="instagram"></li></a>
+						</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</footer>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>

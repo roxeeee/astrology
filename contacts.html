@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/contacts.css">
+	<link rel="shortcut icon" href="img/brauser/phone.png" type="image/png">
+	<title>Контакты</title>
+
+</head>
+<body>
+	
+	<header>
+
+		<div class="container">
+			<div class="content">
+				<a href="index.html"><img class="logo" src="img/icons/logo.svg" alt="logo"></a>
+				<nav class="nav">
+
+					<ul class="nav__items">
+						<a class="link link__item" href="index.html"><li class="nav__item active">Главная</li></a>
+						<a class="link link__item" href="forecast.html"><li class="nav__item">Прогноз</li></a>
+						<a class="link link__item" href="shop.html"><li class="nav__item">Магазин</li></a>
+						<a class="link link__item" href="contacts.html"><li class="nav__item">Контакты</li></a>
+					</ul>
+
+					<div class="link__button">
+						<a class="link link__auth" href="auth.html">Войти</a>
+						<a class="link link__basket" href="#">Корзина</a>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
+	</header>
+	<section class="contacts">
+		
+		<div class="container">
+
+			<h1 class="contacts__title">Контакты</h1>
+
+			<div class="contacts__content">
+
+				<div class="content__left">
+
+					<p class="content__info">CONTACT</p>
+					<h1 class="content__title">Связаться с нами</h1>
+					<p class="content__desc">Vestibulum at leo purus. Etiam at vestibulum libero. Cras augue 
+						neque, finibus sit amet pellentesque in, fermentum vel enim. 
+						Phasellus volutpat vulputate arcu, gravida lobortis auctor vitae. 
+						Suspendisse felis lacus, fermentum in mauris at, accumsan gravida 
+						eros. Fusce id ligula efficitur, feugiat vel, blandit enim. Vestibulum 
+						ante ipsum.</p>
+
+					<div class="icons__content">
+						<img class="icons__location" src="img/icons/location.png" alt="location">
+						<p class="content__adress">Star Street, Washington DC, USA</p>
+					</div>
+
+					<div class="icons__content">
+						<img src="img/icons/mail.png" alt="mail">
+						<p class="content__mail">astrology@mail.ru</p>
+					</div>
+
+					<div class="icons__content">
+						<img src="img/icons/phone.png" alt="phone">
+						<p class="content__phone">+7 917 176 41 24</p>
+					</div>
+
+					<div class="icons__content">
+						<img src="img/icons/smartphone.png" alt="smartphone">
+						<p class="content__smartfone">+7 17 617 41 24</p>
+					</div>	
+
+				</div>
+
+				<div class="content__right">
+
+					<form action="send_email.php" method="post">
+
+						<div class="form__row">
+
+							<div class="form__group">
+								<input type="text" class="input" placeholder=" " name="name" id="name">
+								<label for="" class="label">Имя</label>
+							</div>
+
+							<div class="form__group">
+								<input type="text" class="input" placeholder=" " name="zodiac_sign" id="zodiac">
+								<label for="" class="label">Знак зодиака</label>
+							</div>
+						
+						</div>
+
+						<div class="form__row">
+
+							<div class="form__group">
+								<input type="email" class="input" placeholder=" " name="email" id="email">
+								<label for="" class="label">Почта</label>
+							</div>
+
+						</div>
+
+						<div class="form__row">
+
+							<div class="form__group">
+								<textarea class="textarea" placeholder="Ваше сообщение" name="message" id="message"></textarea>
+							</div>
+
+						</div>
+
+						<button class="submit" type="submit" value="submit">Отправить</button>
+
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="map__content">
+
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88a683ba35cd7f7f2f8911d8b0c503e448b1267548b2887edd18f2ee23eaf7c7&amp;width=620&amp;height=560&amp;lang=ru_RU&amp;scroll=true"></script>
+
+				<div class="content__map">
+
+					<p class="content__info">LOCATION</p>
+					<h1 class="content__title">Посетите Нас</h1>
+					<p class="content__desc">Наряди Лео. Свободная одежда Тиамат. Завтра - это завтра x. 
+						В качестве альтернативы, закройте приложение для Android 
+						самостоятельно. Разносторонний образ жизни, стильные 
+						дизайнеры и профессиональный стиль жизни. Утечка 
+						смартфона, устранение неполадок в гараже по адресу, замена 
+						аккумуляторов во время поездки. Это гребаная, уродливая, 
+						безобразная штука. Одевайся передо мной.</p>
+
+					<div class="icons__content">
+						<img class="icons__location" src="img/icons/location.png" alt="location">
+						<p class="content__adress">Star Street, Washington DC, USA</p>
+					</div>
+
+					<div class="icons__content">
+						<img src="img/icons/phone.png" alt="phone">
+						<p class="content__phone">+7 917 176 41 24</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+
+		<section class="footer">
+
+			<div class="container">
+
+				<div class="footer__content1">
+					<img class="footer__img" src="img/icons/planets_footer.png" alt="planets">
+				</div>
+
+				<div class="footer__content2">
+					<h1 class="footer__title">Следуйте за нами</h1>
+						<div class="footer__items">
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/tg.png" alt="tg"></li></a>
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/vk.png" alt="vk"></li></a>
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/youtube.png" alt="youtube"></li></a>
+							<a class="link footer__link" href="#"><img class="footer__img" src="img/icons/instagram.png" alt="instagram"></li></a>
+						</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</footer>
+
+</body>
+</html>

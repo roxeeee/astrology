@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/auth.css">
+	<link rel="shortcut icon" href="img/brauser/main.png" type="image/png">
+	<title>Авторизация</title>
+</head>
+<body class="registration">
+	
+	<form class="form" action="validation/authenticate.php" method="post">
+
+		<div class="content__form">
+			<a href="index.html"><div class="left-arrow"></div></a>
+			<h1 class="registration__title">Авторизация</h1>
+		</div>
+		
+		<div class="forma">
+
+			<div class="form__group">
+
+				<input type="text" class="input" id="login" name="login" placeholder=" ">
+				<label for="" class="label">Логин</label>
+
+			</div>
+
+			<div class="form__group">
+
+				<input type="password" class="input" id="password" name="password" placeholder=" ">
+				<label for="" class="label">Пароль</label>
+
+			</div>
+
+		</div>
+
+		<button type="submit" class="btn__form">Войти</button>
+
+		<p class="form__login">У вас нету учетной записи? - <a class="form__link" href="reg.html">создайте</a>!</p>
+
+	</form>
+
+</body>
+</html>
